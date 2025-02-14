@@ -11,14 +11,19 @@
 </head>
 <body>
   <header id="cabecalho">
+    
     <div class="logoRcCab">
-      <a href="#"><img src="images/logo02.png" alt="logo"></a>
-      <h3>Construção</h3>
+      <a href="#"><img src="images/CONSTRUÇÃOlogo.png" alt="logo"></a>
     </div>
+    
     <div id="menuH" >
-      <span class="fa fa-bars" ></span>
+      <input type="checkbox" role="button" aria-label="Display the menu" class="menu">
     </div>
+    
     <nav class="navBar">
+      <div class="title">
+        <h1>RC Construçao</h1>
+      </div>
       <ul>
         <li>
           <i class="fa fa-home"  ></i>
@@ -31,18 +36,27 @@
           <i class="fa fa-user"  ></i>
           <a href="pages/vendedores.html">Vendedores</a>
         </li>
-        <li class="iconsRedes">
-          <span class="fab fa-facebook"></span>
-          <a href="https://instagram.com/rcconstrucao"><span class="fab fa-instagram"></span></a>
-          <span class="fab fa-twitter"></span>
-        </li>
       </ul>
-      <div>
-        
+      <div class="iconsRedes">
+          <a href="#" target="_blank">
+            <span class="fab fa-facebook"></span>
+          </a>
+          <a href="https://instagram.com/rcconstrucao"  target="_blank">
+            <span class="fab fa-instagram"></span>
+          </a>
+          <a href="#" target="_blank">
+            <span class="fab fa-twitter"></span>
+          </a>
       </div>
     </nav>
   </header>
+  
   <main id="corpo">
+    
+    <div class="imageHome">
+      <img src="images/imageHome.png" alt="">
+    </div>
+    
     <section class="face">
       <div class="logoRc"> <img src="images/logo.png" alt="imgPrincipal"></div>
       <div class="logoName">
@@ -50,41 +64,92 @@
         <h4>Contruindo com voçê</h4>
       </div>
     </section>
+    
+    <section class="sobreNos">
+      <div class="sobreNosUm">
+        
+      </div>
+      <div>
+        Sobre nós 
+      </div>
+    </section>
+    
     <section>
       <p class="textInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, doloribus deleniti, accusantium quod, suscipit deserunt repellat ullam esse sunt odio nostrum explicabo ipsum vero temporibus dolores harum nulla possimus. Nam?</p>
     </section>
-    <section>
-      <article class="reverse">
+    
+    <section class="produtos">
+      <h1>PRODUTOS</h1>
+      <article class="produtoDemo">
+         <img src="images/pisos.png" alt="produtos">
          <div class="demoTxt">
-          <h2>Pisos e Porcelataos</h2>
+          <h2>Pisos e Porcelanatos</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis obcaecati temporibus aliquam quidem consequatur? Maiores voluptates distinctio eligendi repellat dolor quo commodi</p>
           <a class="button" href="pages/produtos.html">VER MAIS</a>
          </div>
-         <div class="demoImg">
-          <img src="images/caixaFort.png" alt="produtos">
-         </div> 
       </article>
-      <article class="demoDir">
-        
-        <div class="demoImg">
-         <img src="images/tintasIq.png" alt="produtos">
-        </div> 
+      <article class="produtoDemo">
+         <img src="images/caixaFort.png" alt="produtos">
+         <div class="demoTxt">
+          <h2>Caixas D'agua FORTLEV</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis obcaecati temporibus aliquam quidem consequatur? Maiores voluptates distinctio eligendi repellat dolor quo commodi</p>
+          <a class="button" href="pages/produtos.html">VER MAIS</a>
+         </div>
+      </article>
+      
+      <article class="produtoDemo">
+        <img src="images/tintasIq.png" alt="produtos">
         <div class="demoTxt">
-          <h2>Pisos e Porcelataos</h2>
+          <h2>Tintas Iquine ICores</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis obcaecati temporibus aliquam quidem consequatur? Maiores voluptates distinctio eligendi repellat dolor quo commodi, </p>
           <a class="button" href="pages/produtos.html">VER MAIS</a>
          </div>
+         <div class="demoImg">
+        </div>
      </article>
     </section>
-
+    
+    <section class="anunciantes">
+      <h2>Parceiros</h2>
+      <div class="anunciantes">
+        <img src="images/anunciantes/images (1).png" alt="anunciantes" />
+        
+        <img src="images/anunciantes/images (10).jpeg" alt="anunciantes" />
+        
+        <img src="images/anunciantes/images (11).jpeg" alt="anunciantes" />
+        
+        <img src="images/anunciantes/images (2).png" alt="anunciantes" />
+        
+        <img src="images/anunciantes/images (3).png" alt="anunciantes" />
+        
+      </div>
+    </section>
   </main>
+  
+  
   <footer id="rodape">
     <div>
-      <a>Sobre</a>
-      <a>Termos e serviços</a>
-      <a>loja</a>
+      <h2>Instituição</h2>
+      <a href="#">Inicio</a>
+      <a href="#">Sobre Nós</a>
+      <a href="#">Nossa Loja</a>
+      <a href="#">Nossos Parceiros</a>
     </div>
-    <div> RC Construção &copy;</div>
+    <div>
+      
+      <h2>Redes Social</h2>
+
+      <a href="https://instagram.com/rcconstrucao" target="_blank">Instagram</a>
+
+      <a href="#" target="_blank">Facebook</a>
+
+      <a href="#">Nosso Site</a>
+    </div>
+    <div>
+      <h2>Duvidas</h2>
+      <p>Central de Atendimento: 839XXXXXXXX</p>
+    </div>
+    <div class="copy"> RC Construção LTDA &copy; | Todos os Direitos Reservados</div>
   </footer>
 
   <script src="js/script.js"></script>

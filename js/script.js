@@ -1,27 +1,23 @@
+function animationAnunc() {
+  let anunciantesImg = document.querySelector("#anuncImg");
 
-    let btnHamb = document.querySelector('#menuH')
+  anunciantesImg.style.transition = "5s";
 
-    
-    let navBar = document.getElementsByClassName('navBar')
+  anunciantesImg.style.left = "-200%";
 
-      navBar[0].style.left = '-300%'
-    
-    btnHamb.addEventListener('click', ()=> {
-      
-      
-      let navLeft = navBar[0].style.left
-      
-      if( navLeft == '-300%' ) {
-        
-        navBar[0].style.left = '0%'
-        
-      } else {
-        
-        navBar[0].style.left = '-300%'
-        
-      }
-      
-      
-    } )
-    
-console.log('func')
+  console.log(anunciantesImg.style);
+}
+
+let btnHamb = document.querySelector("#menuH");
+
+btnHamb.addEventListener("click", () => {
+  let navBar = document.getElementsByClassName("navBar");
+
+  let navLeft = navBar[0].style.left;
+
+  if (navLeft == "-300%") {
+    navBar[0].style.left = "0%";
+  } else {
+    navBar[0].style.left = "-300%";
+  }
+});

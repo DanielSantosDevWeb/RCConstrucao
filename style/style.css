@@ -9,6 +9,7 @@
   --bco: #F5FAFA;
   --pto:#0D0D0D;
   --verm: #FF3334;
+  --vermEsc: #bc292a;
 }
 
 * {
@@ -19,46 +20,66 @@
 }
 
 body {
-  text-align: center;
   display: flex;
   flex-direction: column;
   background-color: var(--bco);
 }
 
 header {
-  background-color: var(--azEsccuro);
+  background: var(--azEsccuro);
   color: white;
-  padding: 0px;
   display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .logoRcCab {
-  flex: auto;
-  
+  width: 80px;
 }
 
 .logoRcCab h3 {
   display: none;
 }
 
+#inpSearch {
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid var(--azEsccuro) ;
+  background: var(--bco);
+  color: var(--pto);
+  padding: 0px 30px 0px 10px ;
+}
+
+#inpSearch::placeholder {
+  color: var(--azEsccuro);
+}
+
 .navBar {
   
   padding-left: 10px;
   padding-right: 10px;
-  transition: 100ms;
+  transition: 200ms;
 }
 
 .logoRcCab img {
   margin: 12px;
-  width: 40px;
+  
   height: 40px;
   
 }
 
 #menuH span {
   display: none;
-  
-  
+}
+
+.navBar h1 {
+  display: none;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
 }
 
 .navBar ul {
@@ -69,31 +90,34 @@ header {
 }
 
 .navBar ul li {
-  color: white;
+  color: var(--bco);
   list-style-type: none;
   justify-content: center;
-  align-items: center;
   padding: 10px;
-  
+}
+
+.navBar a {
+  color: var(--bco);
+  text-decoration: none;
 }
 
 .iconsRedes span {
   margin: 0px 5px;
-  color: #ffffff;
+  color: var(--bco);
 }
 
 .iconsRedes span:hover {
   color: #bababa;
 }
 
-a {
+.iconsRedes a {
   margin: 0 auto;
   font-size: 15px;
   font-weight: bold;
   width: 10px;
   padding: 5px;
   text-decoration: none;
-  color: white;
+  color: var(--azEsccuro);
   cursor: pointer;
 }
 
@@ -102,37 +126,46 @@ a:hover {
 }
 
 #rodape {
-  width: 100%;
-  margin-top: 50px;
   background-color: var(--azEsccuro);
+  margin-top: 20px;
+  padding: 20px;
   color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 10px ;
 }
 
 #rodape div {
-  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+#rodape div h2 {
+  color: var(--bco);
+  margin-top: 20px;
+}
+
+#rodape a {
+  color: var(--bco);
+  margin: 5px 0px;
+  text-decoration: none;
+}
+
+.copy {
+  margin: 20px auto;
 }
 
 @media screen and (max-width: 900px) {
   
   body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    
   }
   
-  .cabecalho {
+  #cabecalho {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 70px;
   }
   
   .logoRcCab {
-    width: 40px;
-    flex: none;
-    width: 50%;
     display: flex;
     justify-content:left;
     align-items: center;
@@ -140,9 +173,10 @@ a:hover {
   }
 
   .logoRcCab h3 {
-    display: block;
+    display: none;
     font-size: 24px;
     margin-left: 4px;
+    
   }
 
   .logoRcCab a {
@@ -154,13 +188,12 @@ a:hover {
   }
   
   .logoRcCab img {
-    margin: 0px;
-    width: 60px;
-    height: 60px;
+    margin: 6px 0px;
+    height: 55px;
   }
   
+  
   #menuH {
-    width: 50%;
     align-items: center;
     display: flex;
     justify-content:end;
@@ -168,11 +201,9 @@ a:hover {
   }
   
   #menuH span {
-    
     display: block;
     background: transparent;
-    color: #fff;
-    
+    color: var(--bco);
     height: 40px;
     font-size: 30px;
     
@@ -181,47 +212,154 @@ a:hover {
   #menuH span:hover {
     cursor: pointer;
   }
+
+  .menu { /* Animaçao para menu hamburguer*/
+    --s: 30px; /* control the size */
+    --c: white ; /* the color */
+    
+    height: var(--s);
+    aspect-ratio: 1;
+    border: none;
+    padding: 0;
+    border-inline: calc(var(--s)/2) solid #0000; 
+    box-sizing: content-box;
+    --_g1: linear-gradient(var(--c) 20%,#0000 0 80%,var(--c) 0) 
+           no-repeat content-box border-box;
+    --_g2: radial-gradient(circle closest-side at 50% 12.5%,var(--c) 95%,#0000) 
+           repeat-y content-box border-box;
+    background: 
+      var(--_g2) left  var(--_p,0px) top,
+      var(--_g1) left  calc(var(--s)/10 + var(--_p,0px)) top,
+      var(--_g2) right var(--_p,0px) top,
+      var(--_g1) right calc(var(--s)/10 + var(--_p,0px)) top;
+    background-size: 
+      20% 80%,
+      40% 100%;
+    position: relative;
+    clip-path: inset(0 25%);
+    -webkit-mask: linear-gradient(90deg,#0000,#000 25% 75%,#0000);
+    cursor: pointer;
+    transition: 
+      background-position .3s var(--_s,.3s), 
+      clip-path 0s var(--_s,.6s);
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+  }
+  .menu:before,
+  .menu:after {
+    content:"";
+    position: absolute;
+    border-radius: var(--s);
+    inset: 40% 0;
+    background: var(--c);
+    transition: transform .3s calc(.3s - var(--_s,.3s));
+  }
+  
+  .menu:checked {
+    clip-path: inset(0);
+    --_p: calc(-1*var(--s));
+    --_s: 0s;
+  }
+  .menu:checked:before {
+    transform: rotate(45deg);
+  }
+  .menu:checked:after {
+    transform: rotate(-45deg);
+  }
+  .menu:focus-visible {
+    clip-path: none;
+    -webkit-mask: none;
+    border: none;
+    outline: 2px solid var(--c);
+    outline-offset: 5px;
+  }
+
   
   .navBar {
-    
     position: fixed;
-    width: 320px;
+    width: 80%;
     height: 100%;
     background: var(--bco);
     box-shadow: 200px 0px 20px #0000003D;
-    
-    padding: 60px 10px;
+    top: 0%;
+    left: -300%;
     overflow: hidden;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 0px 20px 0px;
+    padding-top: 30px;
+    display: grid;
+    justify-content: space-between;
+    
 }
+
+  .navBar ul li {
+    align-items: start;
+    justify-content: start;
+    padding-left: 20px;
+  }
   
-  i {
-    color: #112D8A;
-    font-size: 28px;
-    margin-right: 10px;
+  .title {
+    display: none;
+  }
+  
+  .navBar i {
+    color: var(--azEsccuro);
+    font-size: 30px;
+    padding-right: 15px;
   }
   
   .navBar span {
-    color: #000;
+    color: var(--azEsccuro);
+    
   }
   
   .navBar ul {
-    display: block;
+    flex-direction: column;
     
+    justify-content: flex-start;
+    width: 150%;
   }
   
   .navBar li {
-    margin: 20px 0px;
-    
+    height: 80px;
+    width: 100%;
+    display: flex;
   }
   
   .navBar a {
-    color: #112D8A;
-    text-align: left;
-    font-size: 20px;
-    
+    color: var(--azEsccuro);
+    font-size: 30px;
+    text-decoration: none;
   }
   
+  .iconsRedes {
+    width: 150%;
+    justify-content: space-around;
+    display: flex;
+  }
   
+  #rodape {
+    margin-top: 20px;
+    padding: 20px;
+  }
   
+  #rodape div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #rodape div h2 {
+    color: var(--bco);
+    margin-top: 20px;
+  }
+  
+  #rodape a {
+    color: var(--bco);
+    margin: 5px 0px;
+    text-decoration: none;
+  }
+  
+  .copy {
+    margin: 20px auto;
+  }
 }
