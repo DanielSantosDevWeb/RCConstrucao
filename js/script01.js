@@ -44,7 +44,7 @@ var pessoas = [
   {
     nome: "Edilucia",
     desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/personF.jpg",
+    img: "../images/vendedores/lu.jpg",
     num: "8391740725",
   },
   {
@@ -56,13 +56,13 @@ var pessoas = [
   {
     nome: "Jobson",
     desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/personM.jpg",
+    img: "../images/vendedores/jobson.jpg",
     num: "8391857077",
   },
   {
     nome: "Dinho",
     desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/personM.jpg",
+    img: "../images/vendedores/dinho.jpg",
     num: "8391590269",
   },
   {

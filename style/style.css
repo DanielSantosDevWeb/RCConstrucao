@@ -69,7 +69,7 @@ header {
   
 }
 
-#menuH span {
+#menuH input {
   display: none;
 }
 
@@ -154,10 +154,6 @@ a:hover {
 
 @media screen and (max-width: 900px) {
   
-  body {
-    
-  }
-  
   #cabecalho {
     display: flex;
     justify-content: space-between;
@@ -199,23 +195,15 @@ a:hover {
     justify-content:end;
     padding-right: 20px;
   }
-  
-  #menuH span {
-    display: block;
-    background: transparent;
-    color: var(--bco);
-    height: 40px;
-    font-size: 30px;
-    
-  }
 
-  #menuH span:hover {
-    cursor: pointer;
+  #menuH input {
+    display: block;
   }
 
   .menu { /* Animaçao para menu hamburguer*/
-    --s: 30px; /* control the size */
+    --s: 26px; /* control the size */
     --c: white ; /* the color */
+    
     
     height: var(--s);
     aspect-ratio: 1;
