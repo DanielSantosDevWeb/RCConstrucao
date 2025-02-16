@@ -1,0 +1,101 @@
+:root {
+  --azClaro: #99cdf5;
+  --azMedio: #306ad6;
+  --azEsccuro: #30348C;
+  --bco: #F5FAFA;
+  --pto:#0D0D0D;
+  --verm: #FF3334;
+  --vermEsc: #bc292a;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+section {
+  margin: 20px;
+}
+
+.produtoTitle {
+  background-color: var(--azEsccuro);
+  color: var(--bco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.produtoTitle h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline;
+}
+
+.produtoTitle img {
+
+  width: 50px;
+  display: inline;
+}
+
+.produtos {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px auto 80px auto;
+  max-width: 900px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.produto {
+  
+  box-shadow: 0px 0px 8px rgba(0, 0, 123, 0.186);
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  display: grid;
+}
+
+.produto img {
+  width: 90%;
+  margin: auto;
+}
+
+.produto div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 5px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.produto div h3 {
+  color: var(--azEsccuro);
+
+}
+
+.produto div p {
+  color: var(--azMedio);
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.produto div button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 140px;
+  height: 45px;
+  border: none;
+  background-color: var(--azEsccuro);
+  color: white;
+  font-weight: 900;
+  font-size: 21px;
+  border-radius: 50px;
+}
