@@ -25,13 +25,13 @@
     },
     {
       "img" : "../../images/produtos/Super_Premium.png",
-      "nome" : "Tinta Iquine Super Premiun",
+      "nome" : "https://github.com/DanielSantosDevWeb/RCConstrucao/blob/main/images/produtos/Super_Premium.png?raw=true",
       "preco" : "159,90"
     }
   ],
   "iluminacao" : [
     {
-      "img" : "../../images/produtos/lustre_pendente.png",
+      "img" : "https://github.com/DanielSantosDevWeb/RCConstrucao/blob/main/images/produtos/lustre_pendente.png?raw=true",
       "nome" : "Lustre Pendente Luxo",
       "preco" : "999,90"
     },
