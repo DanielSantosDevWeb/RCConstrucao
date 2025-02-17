@@ -24,7 +24,7 @@
       "preco" : "22,90"
     },
     {
-      "img" : "../../images/produtos/Super_Premium.png",
+      "img" : "https://github.com/DanielSantosDevWeb/RCConstrucao/blob/main/images/produtos/Super_Premium.png",
       "nome" : "Tinta Iquine Super Premiun",
       "preco" : "159,90"
     }
