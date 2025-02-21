@@ -1,7 +1,7 @@
 {
   "ceramicas" : [
     {
-      "img" : "../../images/produtos/ceramica.png",
+      "img" : "../images/produtos/ceramica.png",
       "nome" : "cerbras 65x65 C pol",
       "preco" : "35,90/m"
     }, 
@@ -14,7 +14,7 @@
 
   "tintas" : [
     {
-      "img" : "../../images/produtos/Delanil-Rende-Muito_Balde-15L.png",
+      "img" : "../images/produtos/Delanil-Rende-Muito_Balde-15L.png",
       "nome" : "Delanil Rende Muito 15L",
       "preco" : "119,90"
     }, 
