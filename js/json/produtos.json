@@ -6,7 +6,7 @@
       "preco" : "35,90/m"
     }, 
     {
-      "img" : "../../images/produtos/ceramica.png",
+      "img" : "../images/produtos/ceramica.png",
       "nome" : "cerbras 45x45 A ret Pol",
       "preco" : "45,90/m"
     }
@@ -19,41 +19,32 @@
       "preco" : "119,90"
     }, 
     {
-      "img" : "../../images/produtos/Massa_Corrida_Balde.png",
+      "img" : "../images/produtos/Massa_Corrida_Balde.png",
       "nome" : "Massa Corrida Iquine 4kg",
       "preco" : "22,90"
     },
     {
-      "img" : "../../images/produtos/Super_Premium.png",
+      "img" : "../images/produtos/Super_Premium.png",
       "nome" : "Tinta Iquine Super Premiun",
       "preco" : "159,90"
     }
   ],
   "iluminacao" : [
     {
-      "img" : "https://github.com/DanielSantosDevWeb/RCConstrucao/blob/main/images/produtos/lustre_pendente.png?raw=true",
+      "img" : "../images/produtos/lustre_pendente.png",
       "nome" : "Lustre Pendente Luxo",
       "preco" : "999,90"
     },
     {
-      "img" : "../../images/produtos/superled.png",
+      "img" : "../images/produtos/superled.png",
       "nome" : "Lampada Ourolux 9w",
       "preco" : "3,99"
     }
   ],
   "construcao" : [
+    
     {
-      "img" : "../../images/produtos/cola.jpeg",
-      "nome" : "Argamassa Ac1 Colaforte 15kg",
-      "preco" : "12,99"
-    },
-    {
-      "img" : "../../images/produtos/cola3.jpeg",
-      "nome" : "Argamassa Ac3 Colaforte 15kg",
-      "preco" : "35,50"
-    },
-    {
-      "img" : "../../images/produtos/telha.png",
+      "img" : "../images/produtos/telha.png",
       "nome" : "Telha Imbralit 2,44x1,10 5mm",
       "preco" : "125,90"
     }

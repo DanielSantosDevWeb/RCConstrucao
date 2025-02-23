@@ -93,6 +93,7 @@ header {
   color: var(--bco);
   list-style-type: none;
   justify-content: center;
+  
   padding: 10px;
 }
 
@@ -280,8 +281,14 @@ a:hover {
     
 }
 
+  .ativo {
+    background-color: rgba(0, 0, 0, 0.068);
+    
+  }
+
+
   .navBar ul li {
-    align-items: start;
+    align-items: center;
     justify-content: start;
     padding-left: 20px;
   }
@@ -321,7 +328,7 @@ a:hover {
   }
   
   .iconsRedes {
-    width: 150%;
+    width: 100%;
     justify-content: space-around;
     display: flex;
   }

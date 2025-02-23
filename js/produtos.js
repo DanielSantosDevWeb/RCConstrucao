@@ -9,17 +9,21 @@ function addCard(prod, tipo) {
   let banner = document.createElement("div");
   let titulo = document.createElement("h3");
   let preco = document.createElement("p");
-  let botao = document.createElement("button");
+  let dinPix = document.createElement("span");
+  let botao = document.createElement("a");
 
   card.classList.add("produto");
 
   img.src = prod.img;
   titulo.textContent = prod.nome;
-  preco.textContent = prod.preco;
+  preco.textContent = "R$ " + prod.preco;
+  dinPix.textContent = "Avista ou Pix";
+  botao.href = "/pages/vendedores.html";
   botao.textContent = "Vendedores";
 
   banner.appendChild(titulo);
   banner.appendChild(preco);
+  banner.appendChild(dinPix);
   banner.appendChild(botao);
 
   card.appendChild(img);

@@ -225,5 +225,9 @@ h2 {
   .produtoDemo img {
     margin: auto;
   }
+
+  .produtoDemo p {
+    max-width: 600px;
+  }
   
 }
