@@ -27,6 +27,21 @@
       "img" : "../images/produtos/Super_Premium.png",
       "nome" : "Tinta Iquine Super Premiun",
       "preco" : "159,90"
+    },
+    {
+      "img" : "../images/produtos/Delanil-Rende-Muito_Balde-15L.png",
+      "nome" : "Delanil Rende Muito 15L",
+      "preco" : "119,90"
+    }, 
+    {
+      "img" : "../images/produtos/Massa_Corrida_Balde.png",
+      "nome" : "Massa Corrida Iquine 4kg",
+      "preco" : "22,90"
+    },
+    {
+      "img" : "../images/produtos/Super_Premium.png",
+      "nome" : "Tinta Iquine Super Premiun",
+      "preco" : "159,90"
     }
   ],
   "iluminacao" : [
