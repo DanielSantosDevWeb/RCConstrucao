@@ -18,7 +18,7 @@ function addCard(prod, tipo) {
   titulo.textContent = prod.nome;
   preco.textContent = "R$ " + prod.preco;
   dinPix.textContent = "Avista ou Pix";
-  botao.href = "/pages/vendedores.html";
+  botao.href = "vendedores.html";
   botao.textContent = "Vendedores";
 
   banner.appendChild(titulo);
