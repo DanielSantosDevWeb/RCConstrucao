@@ -1,33 +1,27 @@
 var pessoas = [
   {
+    nome: "Daniel",
+    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
+    img: "../images/vendedores/daniel.jpg",
+    num: "83994128864",
+  },
+  {
+    nome: "Edilson",
+    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
+    img: "../images/vendedores/dinho.jpg",
+    num: "8391590269",
+  },
+  {
+    nome: "Edlucia",
+    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
+    img: "../images/vendedores/lu.jpg",
+    num: "8391740725",
+  },
+  {
     nome: "Jeymson",
     desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
     img: "../images/vendedores/jey.jpg",
     num: "8393964814",
-  },
-  {
-    nome: "Matheus ",
-    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/vendedores/matheus.jpg",
-    num: "8393118915",
-  },
-  {
-    nome: "Roberto",
-    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/vendedores/roberto.jpg",
-    num: "8393760279",
-  },
-  {
-    nome: "Pereira",
-    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/vendedores/pereira.jpg",
-    num: "8391025410",
-  },
-  {
-    nome: "Jose Marcos",
-    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/vendedores/marcos.jpg",
-    num: "8391788070",
   },
   {
     nome: "Joalison",
@@ -36,16 +30,22 @@ var pessoas = [
     num: "8391096977",
   },
   {
+    nome: "Jobson",
+    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
+    img: "../images/vendedores/jobson.jpg",
+    num: "8391857077",
+  },
+  {
+    nome: "Jose Marcos",
+    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
+    img: "../images/vendedores/marcos.jpg",
+    num: "8391788070",
+  },
+  {
     nome: "Luzinete",
     desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
     img: "../images/vendedores/luzinete.jpg",
     num: "93994128867",
-  },
-  {
-    nome: "Edilucia",
-    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/vendedores/lu.jpg",
-    num: "8391740725",
   },
   {
     nome: "Marcelo",
@@ -54,22 +54,22 @@ var pessoas = [
     num: "8391476875",
   },
   {
-    nome: "Jobson",
+    nome: "Matheus ",
     desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/vendedores/jobson.jpg",
-    num: "8391857077",
+    img: "../images/vendedores/matheus.jpg",
+    num: "8393118915",
   },
   {
-    nome: "Dinho",
+    nome: "Pereira",
     desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/vendedores/dinho.jpg",
-    num: "8391590269",
+    img: "../images/vendedores/pereira.jpg",
+    num: "8391025410",
   },
   {
-    nome: "Daniel",
+    nome: "Roberto",
     desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
-    img: "../images/vendedores/daniel.jpg",
-    num: "83994128864",
+    img: "../images/vendedores/roberto.jpg",
+    num: "8393760279",
   },
 ];
 
