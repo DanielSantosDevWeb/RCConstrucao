@@ -116,7 +116,7 @@ article {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 230px;
+  
   margin: 10px;
   
 }
@@ -154,7 +154,7 @@ article img {
 }
 
 .button:hover {
-  background-color: #2d60be;
+  background-color: var(--azMedio);
   box-shadow: 0px 0px 10px #03001f47;
 }
 
@@ -188,11 +188,11 @@ h2 {
   box-shadow: 0px 0px 5px #0606066E;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   
   main {
     width: 100%;
-    padding: 10px;
+    padding: 30px;
   }
   
   .imageHome {
