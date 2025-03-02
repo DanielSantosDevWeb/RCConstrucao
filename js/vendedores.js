@@ -1,25 +1,25 @@
 var pessoas = [
   {
     nome: "Daniel",
-    desc: "",
+    desc: "Olá, sou Daniel e sou especialista em tubos e conexões.",
     img: "../images/vendedores/daniel.jpg",
     num: "83994128864",
   },
   {
     nome: "Edilson",
-    desc: "",
+    desc: "Olá, Sou Edilson e sou especialista em hidraulica, torneiras, chuveiros e registros.",
     img: "../images/vendedores/dinho.jpg",
     num: "8391590269",
   },
   {
     nome: "Edlucia",
-    desc: "",
+    desc: "Olá, Sou Edlucia e sou espacialista em iluminação, plafon e luminarias.",
     img: "../images/vendedores/lu.jpg",
     num: "8391740725",
   },
   {
     nome: "Jeymson",
-    desc: "mas nesse caso os elementos podem aumentar para preencher o contêiner ou diminuir",
+    desc: "Olá, Sou Jey e sou especialista em pisos, porcelanatos e azulejos.",
     img: "../images/vendedores/jey.jpg",
     num: "8393964814",
   },

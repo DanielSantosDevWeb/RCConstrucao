@@ -82,6 +82,11 @@ section {
   padding: 10px;
 }
 
+.info p {
+  text-align: center;
+  font-weight: 500;
+}
+
 .info a {
   background-color: var(--azEsccuro);
   height: 40px;
