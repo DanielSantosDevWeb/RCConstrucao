@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#content {
+  cursor: grab;
+}
+
+#content:active {
+  cursor: grabbing;
+}
+  </style>
+</head>
+<body>
+  <div id="content" style="width: 300px; height: 300px; overflow: auto; border: 1px solid #000;">
+    <div style="width: 600px; height: 600px;">
+      Conteúdo que pode ser arrastado.
+    </div>
+  </div>
+
+  <script>
+    const content = document.getElementById('content');
+let isDragging = false;
+let startX, startY, scrollLeft, scrollTop;
+
+content.addEventListener('mousedown', (e) => {
+  isDragging = true;
+  startX = e.pageX - content.offsetLeft;
+  startY = e.pageY - content.offsetTop;
+  scrollLeft = content.scrollLeft;
+  scrollTop = content.scrollTop;
+  content.style.cursor = 'grabbing';
+});
+
+content.addEventListener('mousemove', (e) => {
+  if (!isDragging) return;
+  e.preventDefault();
+  const x = e.pageX - content.offsetLeft;
+  const y = e.pageY - content.offsetTop;
+  const walkX = (x - startX) * 2; // Ajuste a sensibilidade do arrasto
+  const walkY = (y - startY) * 2; // Ajuste a sensibilidade do arrasto
+  content.scrollLeft = scrollLeft - walkX;
+  content.scrollTop = scrollTop - walkY;
+});
+
+content.addEventListener('mouseup', () => {
+  isDragging = false;
+  content.style.cursor = 'grab';
+});
+
+content.addEventListener('mouseleave', () => {
+  isDragging = false;
+  content.style.cursor = 'grab';
+});
+  </script>
+</body>
+</html>

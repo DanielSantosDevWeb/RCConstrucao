@@ -47,7 +47,14 @@ section {
   overflow-x: auto;
 }
 
+.produtos::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem no Chrome, Safari e Opera */
+}
+
 .produtos {
+  scrollbar-width: none; /* Oculta a barra de rolagem no Firefox */
+  -ms-overflow-style: none; /* Oculta a barra de rolagem no IE/Edge */
+  
   --size: clamp(12rem, 1rem + 50vw, 20rem);
   --gutter: 2rem;
   --gap: 0.5rem;
@@ -64,6 +71,10 @@ section {
 }
 
 .items {
+  user-select: none;
+  
+  position: relative;
+  left: 10px;
   display: flex;
   gap: 10px;
   &::after {
@@ -77,7 +88,7 @@ section {
   > * {
     display: grid;
     inline-size: var(--size);
-    scroll-snap-align: center;
+    /*scroll-snap-align: center;*/
   }
 }
 
@@ -127,6 +138,7 @@ section {
 .produto img {
   width: 200px;
   margin: auto;
+  pointer-events: none;
 }
 
 .produto div {
