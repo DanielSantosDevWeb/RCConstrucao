@@ -14,34 +14,29 @@
 
   "tintas" : [
     {
-      "img" : "../images/produtos/Delanil-Rende-Muito_Balde-15L.png",
-      "nome" : "Delanil Rende Muito 15L",
-      "preco" : "119,90"
+      "img" : "../images/produtos/Coral-Decora-Diamante.png",
+      "nome" : "Coral Decora Diamante Semi-Brilho Base 3,6L ",
+      "preco" : "322,90"
     }, 
     {
-      "img" : "../images/produtos/Massa_Corrida_Balde.png",
-      "nome" : "Massa Corrida Iquine 4kg",
-      "preco" : "22,90"
+      "img" : "../images/produtos/Coral-Decora-Cimento-Queimado.jpg",
+      "nome" : "Coral Efeitos Especiais Cimento Queimado Base 4,1Kg",
+      "preco" : "288,90"
     },
     {
-      "img" : "../images/produtos/Super_Premium.png",
-      "nome" : "Tinta Iquine Super Premiun",
-      "preco" : "159,90"
+      "img" : "../images/produtos/Coral-Sol-Chuva.png",
+      "nome" : "Coral Sol e Chuva Acrilico Fosco Base 3,6L",
+      "preco" : "297,90"
     },
     {
-      "img" : "../images/produtos/Delanil-Rende-Muito_Balde-15L.png",
-      "nome" : "Delanil Rende Muito 15L",
-      "preco" : "119,90"
+      "img" : "../images/produtos/Coral-Super-Lavavel.png",
+      "nome" : "Coral Super Lavavel Semi Acetinado Base 3,6L",
+      "preco" : "325,90"
     }, 
     {
-      "img" : "../images/produtos/Massa_Corrida_Balde.png",
-      "nome" : "Massa Corrida Iquine 4kg",
-      "preco" : "22,90"
-    },
-    {
-      "img" : "../images/produtos/Super_Premium.png",
-      "nome" : "Tinta Iquine Super Premiun",
-      "preco" : "159,90"
+      "img" : "../images/produtos/Lux-Massa-Corrida.png",
+      "nome" : "Massa Corrida Lux 25Kg",
+      "preco" : "50,90"
     }
   ],
   "iluminacao" : [
