@@ -72,8 +72,6 @@ section {
 
 .items {
   user-select: none;
-  
-  position: relative;
   left: 10px;
   display: flex;
   gap: 10px;
