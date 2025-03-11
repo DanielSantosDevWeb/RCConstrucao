@@ -3,8 +3,18 @@
     
     {
       "img" : "../images/produtos/",
-      "nome" : "Aguardando Pruduto",
-      "preco" : "00,00"
+      "nome" : "Piso Pointer Trastevere 60x60 A 2,53m²",
+      "preco" : "36,90m²"
+    },
+    {
+      "img" : "../images/produtos/",
+      "nome" : "Piso Pointer Classico Branco 60x60 Retificado A 2,12m²",
+      "preco" : "44,90m²"
+    },
+    {
+      "img" : "../images/produtos/",
+      "nome" : "Piso Formigres Nero Elevato 66x66 Polido Retificado A 2,18m² ",
+      "preco" : "64,90m²"
     }
   ],
 
