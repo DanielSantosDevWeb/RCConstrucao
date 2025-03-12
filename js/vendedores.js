@@ -1,25 +1,25 @@
 var pessoas = [
   {
     nome: "Daniel",
-    desc: "Olá, sou Daniel e sou especialista em tubos e conexões.",
+    desc: "",
     img: "../images/vendedores/daniel.jpg",
     num: "83994128864",
   },
   {
     nome: "Edilson",
-    desc: "Olá, Sou Edilson e sou especialista em hidraulica, torneiras, chuveiros e registros.",
+    desc: "",
     img: "../images/vendedores/dinho.jpg",
     num: "8391590269",
   },
   {
     nome: "Edlucia",
-    desc: "Olá, Sou Edlucia e sou espacialista em iluminação, plafon e luminarias.",
+    desc: "",
     img: "../images/vendedores/lu.jpg",
     num: "8391740725",
   },
   {
     nome: "Jeymson",
-    desc: "Olá, Sou Jey e sou especialista em pisos, porcelanatos e azulejos.",
+    desc: "",
     img: "../images/vendedores/jey.jpg",
     num: "8393964814",
   },
