@@ -6,12 +6,6 @@ var pessoas = [
     num: "83994128864",
   },
   {
-    nome: "Edilson",
-    desc: "",
-    img: "../images/vendedores/dinho.jpg",
-    num: "8391590269",
-  },
-  {
     nome: "Edlucia",
     desc: "",
     img: "../images/vendedores/lu.jpg",
@@ -22,12 +16,6 @@ var pessoas = [
     desc: "",
     img: "../images/vendedores/jojo.jpg",
     num: "8391096977",
-  },
-  {
-    nome: "Jobson",
-    desc: "",
-    img: "../images/vendedores/jobson.jpg",
-    num: "8391857077",
   },
   {
     nome: "José Marcos",
