@@ -18,64 +18,53 @@
   "tintas" : [
     {
       "img" : "../images/produtos/Coral-Decora-Diamante.png",
-      "nome" : "Coral Decora Diamante Semi-Brilho Base 3,6L ",
-      "preco" : "322,90"
+      "nome" : "Coral Decora Diamante Semi-Brilho Base 3,6L "
     }, 
     {
       "img" : "../images/produtos/Coral-Decora-Cimento-Queimado.jpg",
-      "nome" : "Coral Efeitos Especiais Cimento Queimado Base 4,1Kg",
-      "preco" : "288,90"
+      "nome" : "Coral Efeitos Especiais Cimento Queimado Base 4,1Kg"
     },
     {
       "img" : "../images/produtos/Coral-Sol-Chuva.png",
-      "nome" : "Coral Sol e Chuva Acrilico Fosco Base 3,6L",
-      "preco" : "297,90"
+      "nome" : "Coral Sol e Chuva Acrilico Fosco Base 3,6L"
     },
     {
       "img" : "../images/produtos/Coral-Super-Lavavel.png",
-      "nome" : "Coral Super Lavavel Semi Acetinado Base 3,6L",
-      "preco" : "325,90"
+      "nome" : "Coral Super Lavavel Semi Acetinado Base 3,6L"
     }, 
     {
       "img" : "../images/produtos/Lux-Massa-Corrida.png",
-      "nome" : "Massa Corrida Lux 25Kg",
-      "preco" : "50,90"
+      "nome" : "Massa Corrida Lux 25Kg"
     }
   ],
   "iluminacao" : [
     
     {
       "img" : "../images/produtos/superled.png",
-      "nome" : "Lampada Ourolux SuperLed 9w ",
-      "preco" : "3,99"
+      "nome" : "Lampada Ourolux SuperLed 9w "
     }
   ],
   "construcao" : [
     
     {
       "img" : "../images/produtos/telha.png",
-      "nome" : "Telha Imbralit 2,44x1,10 5mm",
-      "preco" : "89,90"
+      "nome" : "Telha Imbralit 2,44x1,10 5mm"
     },
     {
       "img" : "../images/produtos/caixa-agua-fortlev-1000l.png",
-      "nome" : "Caixa D`Agua FortLev 1000L",
-      "preco" : "443,90"
+      "nome" : "Caixa D`Agua FortLev 1000L"
     },
     {
       "img" : "../images/produtos/porta-mogno-clm.png",
-      "nome" : "Porta Madeira Semi-ôca Clm - 60, 70 e 80",
-      "preco" : "125,90"
+      "nome" : "Porta Madeira Semi-ôca Clm - 60, 70 e 80"
     },
     {
       "img" : "../images/produtos/porta-pormatex-jatoba.png",
-      "nome" : "Porta Jatoba Semi-ôca Pormatex - 60, 70 e 80",
-      "preco" : "235,00"
+      "nome" : "Porta Jatoba Semi-ôca Pormatex - 60, 70 e 80"
     },
     {
       "img" : "../images/produtos/Biodigestor-fortlev.png",
-      "nome" : "Bio Digestor FortLev 700L",
-      "preco" : "3100,00"
+      "nome" : "Bio Digestor FortLev 700L"
     }
   ]
 
