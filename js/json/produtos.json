@@ -3,18 +3,15 @@
     
     {
       "img" : "../images/produtos/trateveres-ext-poiter-60x60.png",
-      "nome" : "Piso Pointer Trastevere 60x60 A 2,53m²",
-      "preco" : "36,90m²"
+      "nome" : "Piso Pointer Trastevere 60x60 A 2,53m²"
     },
     {
       "img" : "../images/produtos/classico-branco-pointer-60x60.png",
-      "nome" : "Piso Pointer Classico Branco 60x60 Retificado A 2,12m²",
-      "preco" : "44,90m²"
+      "nome" : "Piso Pointer Classico Branco 60x60 Retificado A 2,12m²"
     },
     {
       "img" : "../images/produtos/nero-elevato-form-66x66.png",
-      "nome" : "Piso Formigres Nero Elevato 66x66 Polido Retificado A 2,18m² ",
-      "preco" : "64,90m²"
+      "nome" : "Piso Formigres Nero Elevato 66x66 Polido Retificado A 2,18m² "
     }
   ],
 
